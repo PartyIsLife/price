@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="display: inline-block; margin-right: 50px; border: solid black 5px;"><img src="1050.jpg" height="300px" width="250px"> <button onclick="laik()" style=" position: absolute; margin-left: -40px"><img src="serdce1.png" id="3" height="20" width="20"> </button>  <br /><div style="text-align: center"> GeForce GTX 1050 TI</div> <br /><div style=" border: solid black 1px; text-align: center"> 200$</div>
+</div>
+<div style="display: inline-block; margin-right: 50px; border: solid black 5px;"><img src="labr.jpg" height="300px" width="250px"> <button onclick="laik1()" style=" position: absolute; margin-left: -40px"><img src="serdce1.png" id="4" height="20" width="20"> </button> <br /><div style="text-align: center"> Labrador Puppy</div> <br /><div style=" border: solid black 1px; text-align: center"> 400$</div>
+</div>
+<div style="display: inline-block; margin-right: 50px; border: solid black 5px;"><img src="x.jpg" height="300px" width="250px"> <button onclick="laik2()" style=" position: absolute; margin-left: -40px"><img src="serdce1.png" id="5" height="20" width="20"> </button>  <br /><div style="text-align: center">IPHONE X</div> <br /> <div style=" border: solid black 1px; text-align: center">999$</div>
+</div>
+
+</body>
+<script>
+z = 1;
+x = 1;
+i = 1;
+    function laik() {
+        z = z + 1;
+        if (z>2){
+           z=1
+        }
+        if (z==1){
+            document.getElementById("3").src='serdce1.png';
+            }
+        if (z==2){
+            document.getElementById("3").src='serdce2.png';
+            }
+
+    }
+    function laik1() {
+        x = x + 1;
+        if (x>2){
+           x=1
+        }
+        if (x==1){
+            document.getElementById("4").src='serdce1.png';
+            }
+        if (x==2){
+            document.getElementById("4").src='serdce2.png';
+            }
+
+    }
+    function laik2() {
+        i = i + 1;
+        if (i>2){
+           i=1
+        }
+        if (i==1){
+            document.getElementById("5").src='serdce1.png';
+            }
+        if (i==2){
+            document.getElementById("5").src='serdce2.png';
+            }
+
+    }
+    
+    
+    
+</script>
+</html>
